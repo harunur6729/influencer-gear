@@ -1,0 +1,117 @@
+
+body{
+    margin-bottom: 100px;
+    font-family: sans-serif;
+}
+
+/* header styles starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-side,.left-side{
+    margin: 30px;
+}
+.right-side a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background-color: antiquewhite;
+    padding: 2px 15px;
+    border-radius: 20px;
+    
+}
+.right-side input{
+    display: none;
+}
+.fa-magnifying-glass:hover>input{
+    display: block;
+}
+
+/* top container/section starts */
+.container-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.half-width{
+    width: 50%;
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+    position: relative;
+    margin: auto 0;
+    
+}
+.half-width img{
+    border: 1px solid rgb(153, 145, 145);
+    border-radius: 50%;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+.prebook a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red,tomato);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+hr{
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+/* online shop lists */
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.online-shop a{
+    margin:30px;
+    padding: 25px;
+}
+
+
+/* Popular Collection styles start */
+.container-3{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.popular-collection{
+    text-align: center;
+    
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    
+}
+.item{
+    border: 2px solid lightcyan;
+    box-shadow: 5px 10px 20px;
+    margin: 50px;
+    padding: 20px;
+}
+.container-3 .see-more{
+    position: absolute;
+    left: auto;
+    right: 0;
+    margin-right: 5%;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+   
+}
